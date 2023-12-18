@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+     <link rel="stylesheet" href="styles.css">
+     <script src="https://kit.fontawesome.com/6de19ce4d3.js" crossorigin="anonymous"></script>
+     <script src="script.js"></script>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <div class="content">
+                <div class="logo">
+                    <img src=" Images\2.png">
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>   
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="header_text">
+            <p><b>Software Developer</b></p>
+            <pre><h1><b>Hey There, I am<span>Yuvraj Sidhu</span><br> from Canada</b></h1></pre>
+        </div>
+
+    </div>
+    
+    <!---about-->
+  <div id="about">  
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/Profile Picture.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About me</h1>
+                <p>Greetings! I'm Yuvraj Sidhu, a passionate student at BOW Valley College, on a journey to make my mark in the realms of web and software development. With a fervor for crafting digital experiences, I blend my academic prowess with hands-on skills to bring ideas to life through code. Whether it's building captivating websites or developing innovative software solutions, I thrive on the intersection of creativity and technology. As I navigate the dynamic world of programming, I am committed to continuous learning, clean coding practices, and staying at
+                     the forefront of industry trends. Join me on this exciting journey, and let's create digital wonders together. Welcome to my portfolio!
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link " onclick="opentab('Skills')">Skills</p>
+                    <p class="tab-links"  onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="Skills">
+                    <ul>
+                        <li><span>IT Skills</span><br>HTML, CSS, Java Script, C, C++</li>
+                        <li><span>Computer Skills</span><br>Microsoft Suite(Word,Excel,Powerpoint)</li>
+                        <li><span>Soft Skills</span><br>Communication, detail-oriented, time management</li>
+                    </ul>
+                </div>
+               
+                <div class="tab-contents" id="Education">
+                    <ul>
+                        <li><span>BOW Valley College - Calgary, AB</span><br>Software Development Diploma</li>
+                        <li><span>Government Senior Secondary School Boys - Phagwara Punjab</span><br>High School Diploma or GED</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div> 
+
+  <!------------services--------->
+
+  <div id="services">
+    <div id="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+              <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Hire me as your web developer, and you'll get more than just code. I bring a 
+                    fusion of technical expertise and creative flair, ensuring your website not 
+                    only functions flawlessly but also stands out visually.</p>
+                    <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>Software Developer</h2>
+                <p>
+                    Choose me as your software developer, and you're not just getting code – you're getting a dedicated partner
+                     in turning your concepts into robust digital solutions. With a blend of technical
+                     proficiency and problem-solving skills, I create software that goes beyond meeting
+                      requirements to deliver a seamless user experience.</p>
+                    <a href="#">Learn more</a>
+              </div>
+              <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>UI/UX designer</h2>
+                <p>I could enhance your User Interface and experince through my knowledge and work by designing and implementing unique UI/UX learnings.</p>
+                    <a href="#">Learn more</a>
+              </div>
+        </div>
+    </div>
+
+  </div>
+
+
+
+  <!-------Portfolio------>
+
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                 <img src="Images/work-1.jpg">
+                 <div class="layer">
+                     <h3>Real Estate Website</h3>
+                     <p>This is a one Elegant looking demo Real Estate website that I have made to show to a freelance client.</p>
+                     <a href="style.css\Real Estate project.html"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                 </div>
+            </div>
+            <div class="work">
+                <img src="Images/Tac.avif">
+                <div class="layer">
+                    <h3>Tic Tac Toe Game</h3>
+                    <p>This is a Tic Tac Toe game that has dropping X's and O's Give it a try!!</p>
+                    <a href="Portfolio\GLA - 3 Yuvraj SIdhu TicTacToe"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+           </div>
+       </div>
+        </div>
+    </div>
+  </div>
+
+
+  <!-------contact--------------->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>y.sidhu456@mybvc.ca</p>
+                <p><i class="fa-solid fa-phone-square-alt"></i>587-837-8554</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://ca.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="Yuvraj Sidhu CV.pdf" download class="btn btn2">Download CV</a>
+                <a href="HTML Tutor/index.html" class="btn btn2">HTML Cheat Sheet</a>
+            </div>
+            <div class="contact-right">
+              <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="You Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+            </div>  
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-solid fa-heart"></i>Copyright@ Yuvraj Sidhu</p>
+    </div>
+</div>
+
+
+
+  
+</body>
+</html>
