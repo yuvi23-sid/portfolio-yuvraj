@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #7F00FF;
+}
+.wrapper {
+  width: 25%;
+  background-color: white;
+  position: absolute;
+  padding: 4em;
+  transform: translateX(-50%);
+  left: 50%;
+  right: 50%;
+  top: 1.25em;
+  border-radius: 0.5em;
+}
+.title {
+  text-align: center;
+  font-size:xx-large;
+  font-weight: bold;
+  color: black;
+}
+
+.subtitle{
+  text-align: center;
+  font-size: medium;
+  color: black;
+  padding-bottom: 3%;
+}
+#turn {
+  margin: 1em 0;
+  text-align: right;
+  color: black;
+}
+#turn span {
+  font-weight: 700;
+  color: red;
+}
+.container {
+  margin: 1.25em auto;
+  width: 14.75em;
+  border-radius: 0.6em;
+  overflow: hidden;
+  background-color: white;
+}
+#info {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.player-wrappers {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.player1:before {
+  align-self: center;
+  content: "";
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: url('O.jpg') no-repeat center center;
+  background-size: contain;
+}
+.player2:before {
+  align-self: center;
+  content: "";
+  display: inline-block;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background: url('X.jpg') no-repeat center center;
+  background-size: contain;
+}
+
+.startScreen {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  background-color: #7F00FF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.startScreen button {
+  background-color: white;
+  font-size: 1.4em;
+  padding: 1em 2em;
+  border: none;
+  outline: none;
+  border-radius: 2em;
+  cursor: pointer;
+}
+#message {
+  margin-bottom: 1em;
+  color: #ffffff;
+  font-size: 1.2em;
+}
+
+.grid-row {
+  margin: 0 auto;
+  display: flex;
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: repeat(3, 5px);
+  grid-gap: 8px;
+   width: 60px ;
+   height: 60px ;
+  border: 3px solid #7F00FF;
+  padding: 8px;
+  background-color: white ;
+  border-radius: 5px;  
+  cursor: pointer;
+}
+.hide {
+  display: none;
+}

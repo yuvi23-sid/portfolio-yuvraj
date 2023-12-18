@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Slider demo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+<style>
+    section 
+{
+            background-color: #f4f3ef;
+            padding:40px 80px;
+            text-align: center;
+        }
+        .item
+        {
+            background-color: rgb(185, 183, 183);
+            padding: 40px;
+        }
+</style>
+
+
+</head>
+
+<body>
+    <section class="review-section">
+        <div class="container-fluid">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <h4>1</h4>
+                </div>
+                <div class="item">
+                    <h4>2</h4>
+                </div>
+                <div class="item">
+                    <h4>3</h4>
+                </div>
+            </div>
+            </div>
+        
+    </section>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 10,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+</body>
+
+</html>
